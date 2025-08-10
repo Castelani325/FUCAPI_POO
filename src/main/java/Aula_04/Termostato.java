@@ -1,3 +1,8 @@
+//Otávio Castelani
+//RA : 212466
+
+//Exercício 2 : Termostato
+
 package Aula_04;
 
 import java.io.StringWriter;
