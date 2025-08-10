@@ -2,6 +2,7 @@
 //RA : 212466
 
 import Aula_04.Funcionario;
+import Aula_04.Termostato;
 
 
 public class Main {
@@ -35,7 +36,7 @@ public class Main {
 
 
         // Aula 04 (Início)
-
+/*
         String nome = "Carlos";
         Double salario = 1000.0;
         String cargo = "Analista";
@@ -58,8 +59,26 @@ public class Main {
         funcionario.aumentaSalario(5);
 
         funcionario.exibirDetalhes();
+*/
+        // Aula 04 (Fim).
 
-        // Aula 04 (Fim)
+        // Aula 05 (Início)
+
+        double temperaturaDesejada = 25 ;
+
+        Termostato termostato = new Termostato(null,20);
+        termostato.obterStatus();
+        termostato.exibirDetalhes();
+
+        termostato.getTemperaturaAtual();
+        termostato.getTemperaturaDesejada();
+
+        termostato.simularMudancaTemperatura(26);
+
+        termostato.exibirDetalhes();
+        termostato.obterStatus();
+
+        // Aula 05 (Início)
 
     }
 }
