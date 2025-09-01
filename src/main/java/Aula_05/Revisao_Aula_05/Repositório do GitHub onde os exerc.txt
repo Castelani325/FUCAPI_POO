@@ -1,0 +1,12 @@
+Repositório do GitHub onde os exercícios se encontram: 
+
+
+
+https://github.com/Castelani325/FUCAPI_POO/tree/main/src/main/java
+
+
+
+*Os 3 exercícios da Aula 05 se encontram na pasta "Aula_05"
+**Os 20 exercícios de revisão da Aula 01 à Aula 05 se encontram na pasta "Revisao_Aula05".
+
+Respeitosamente, Otávio Castelani. 
