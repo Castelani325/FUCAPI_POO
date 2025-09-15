@@ -5,9 +5,9 @@ public class Livro  {
     private String titulo;
     private String autor;
     private String isbn;
-    private boolean estaEmprestado;
+    static boolean estaEmprestado;
 
-    private Livro (String titulo, String autor, String isbn, boolean estaEmprestado) {
+    public Livro (String titulo, String autor, String isbn) {
         this.titulo = titulo;
         this.autor = autor;
         this.isbn = isbn;
