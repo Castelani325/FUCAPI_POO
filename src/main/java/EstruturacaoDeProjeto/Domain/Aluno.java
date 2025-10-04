@@ -7,7 +7,7 @@ public class Aluno extends Pessoa {
 
     private String matricula;
 
-    public Aluno (String matricula, String nome, String cpf, LocalDate dataNascimento) {
+    public Aluno(String matricula, String nome, String cpf, LocalDate dataNascimento) {
         super(nome, cpf, dataNascimento);
         this.matricula = matricula;
     }
